@@ -22,10 +22,12 @@ git clone git@github.com:elielmayrink/Quiz-trivia-open-database.git
 
 # Instalar dependencias
 npm install
+# ou
 yarn install
 
 # Rodar o projeto modo dev
 npm next dev
+# ou
 yarn next dev
 
 ```

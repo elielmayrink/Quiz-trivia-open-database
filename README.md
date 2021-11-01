@@ -2,8 +2,8 @@
 
 # Sobre o projeto
 
-O projeto foi criado com base em um desafio em uma vaga para dev react/next junior.
-No projeto fou usado nextJs para o desenvolvimento, consumindo um api em php 
+O projeto foi criado com base em um desafio de uma vaga para dev react/next junior.
+No projeto foi usado nextJs para o desenvolvimento, consumindo uma api em php 
 (https://opentdb.com/api.php?amount=10)
 tambem foi usado uma lib para decode das strings nas perguntas e nas respostas
 (https://github.com/mathiasbynens/he).

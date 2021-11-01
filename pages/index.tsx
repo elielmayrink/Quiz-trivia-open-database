@@ -40,11 +40,13 @@ export default function Home() {
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <Link href="results/resultQuiz">
+      {  
+        <Link href="results/resultQuiz">
       
         <button className="resultBtn">Ultimo resultado</button>
             
       </Link>
+      }
       <FormComponent 
         user={user.name}
         changeName={(e) => handlerName(e)} 

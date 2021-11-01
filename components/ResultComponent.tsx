@@ -8,6 +8,8 @@ export default function ResultComponent(props) {
             <Link href="/">
                 <button className={styles.backBtn}>Back to home</button>
             </Link>
+            {props.rigthQuestions > 0 || props.wrongQuestions ?
+            <>
             <div className={styles.resultItens}>
                 <div className={styles.amountQuestions}>
                     <span>Número de Questões</span>
@@ -43,6 +45,9 @@ export default function ResultComponent(props) {
                     </p>
                 </div>
             </div>
+            </> : 
+            <h1>Voçê ainda não jogou</h1>
+        }
         </div>
     );
 }

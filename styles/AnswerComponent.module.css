@@ -1,0 +1,80 @@
+.answerComponent {
+    background-color: #FFFFFF;
+    width: 40vw;
+    padding: 10px;
+    font-size: 1.6rem;
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    font-weight: bold;
+    margin: 25px;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+
+.correct {
+    background-color: #FFFFFF;
+    width: 40vw;
+    padding: 10px;
+    font-size: 1.6rem;
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    font-weight: bold;
+    margin: 25px;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    animation: flipCorrectAnswer 1.5s forwards;
+}
+
+.incorrected {
+    background-color: #FFFFFF;
+    width: 40vw;
+    padding: 10px;
+    font-size: 1.6rem;
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    font-weight: bold;
+    margin: 25px;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    animation: flipIncorrectAnswer 1.5s forwards;
+}
+
+@keyframes flipCorrectAnswer {
+    to {
+        transform: rotateX(360deg);
+        border: 2px solid #FFFFFF;
+        background-color: #13CA71;
+        width: 40vw;
+        padding: 10px;
+        font-size: 1.6rem;
+        font-family: "Roboto", sans-serif;
+        color: #FFFFFF;
+        font-weight: bold;
+        margin: 25px;
+        text-align: center;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+}
+@keyframes flipIncorrectAnswer {
+    to {
+        transform: rotateX(360deg);
+        border: 2px solid #FFFFFF;
+        background-color: #FC7C6C;
+        width: 40vw;
+        padding: 10px;
+        font-size: 1.6rem;
+        font-family: "Roboto", sans-serif;
+        color: #FFFFFF;
+        font-weight: bold;
+        margin: 25px;
+        text-align: center;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+}

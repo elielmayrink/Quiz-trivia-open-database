@@ -1,0 +1,109 @@
+.resultContainer { 
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.backBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 200px;
+    height: 40px;
+    padding: 8px;
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+}
+.resultItens {
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+.amountQuestions, .rigthQuestions, .wrongQuestions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.amountQuestions, .rigthQuestions, .wrongQuestions span {
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+.amountQuestions div {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    font-weight: bold;
+    font-size: 34px;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFD034;
+    color: #342D1A;
+    margin-top: 20px;
+}
+
+.rigthQuestions div {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    font-weight: bold;
+    font-size: 34px;
+    align-items: center;
+    justify-content: center;
+    background-color: #8ECC9D;
+    color: #342D1A;
+    margin-top: 20px;
+}
+
+.wrongQuestions div {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E05E36;
+    color: #342D1A;
+    margin-top: 20px;
+}
+.porcent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.porcent span {
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.porcent div {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #13CA71;
+    color: #342D1A;
+    margin-top: 20px;
+}
